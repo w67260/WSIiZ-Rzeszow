@@ -1,9 +1,9 @@
-n=int(input("Podaj liczbę studentów: "))
-i=1
-while i<=n:
-    suma=0
-    punkty=int(input(f"Podaj punkty dla studenta {i}: "))
-    suma+=punkty
-    i+=1
-srednia=suma/n
-print(f"Średnia punktów to: {srednia}")
+x = 1
+sum = 0
+numOfStudents = int(input("Wprowadz liczbe studentow:"))
+while x <= numOfStudents:
+    points = int(input("Wprowadz liczbe punktow studenta"))
+    sum += points
+    x+=1
+    median = sum/numOfStudents
+print("Średnia punktów uczniów wynosi:", median)
